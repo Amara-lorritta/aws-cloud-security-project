@@ -1,6 +1,5 @@
 🚀 AWS Cloud Security Project: Secure Cloud Infrastructure with Compliance & Threat Detection
-
-🔹 Project Overview
+🔹 Project Overview:
 This project secures an AWS environment using:
 ✅ Secure VPC with Public & Private Subnets  
 ✅ IAM Best Practices (MFA, Least Privilege)  
@@ -8,12 +7,12 @@ This project secures an AWS environment using:
 ✅ AWS GuardDuty, CloudTrail, and Security Hub  
 ✅ Auto-Lock IAM Users with AWS Lambda  
 
-🔹 AWS Services Used
+🔹 AWS Services Used:
 - Networking: VPC, Subnets, Route Tables, NAT Gateway  
 - Security: IAM, WAF, GuardDuty, Security Hub  
 - Automation: Lambda Function for Incident Response  
 
-🔹 How to Deploy
+🔹 How to Deploy:
 1️⃣ Create a VPC with Public & Private Subnets  
 2️⃣ Attach an Internet Gateway to the Public Subnet  
 3️⃣ Set Up Route Tables for Traffic Control  
