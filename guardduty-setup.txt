@@ -1,0 +1,13 @@
+# AWS GuardDuty & CloudTrail Setup
+
+## 1 Enable AWS GuardDuty
+1. Go to AWS Console → Search "GuardDuty"
+2. Click "Enable GuardDuty"
+3. GuardDuty will now monitor AWS accounts for security threats.
+
+## 2 Enable AWS CloudTrail
+1. Go to AWS Console → Search "CloudTrail"
+2. Click "Create Trail"
+3. Set "Apply Trail to All Regions" 
+4. Store logs in a new S3 bucket
+5. Click "Create"

@@ -1,0 +1,32 @@
+{
+    "SecurityGroups": [
+        {
+            "GroupName": "Web-Server-SG",
+            "Description": "Allow HTTP/HTTPS and SSH from My IP",
+            "InboundRules": [
+                {
+                    "Protocol": "TCP",
+                    "Port": 22,
+                    "Source": "xxx.xxx.xxx.xxx/32"
+                },
+                {
+                    "Protocol": "TCP",
+                    "Port": 80,
+                    "Source": "0.0.0.0/0"
+                },
+                {
+                    "Protocol": "TCP",
+                    "Port": 443,
+                    "Source": "0.0.0.0/0"
+                }
+            ],
+            "OutboundRules": [
+                {
+                    "Protocol": "ALL",
+                    "Port": "ALL",
+                    "Destination": "0.0.0.0/0"
+                }
+            ]
+        }
+    ]
+}
